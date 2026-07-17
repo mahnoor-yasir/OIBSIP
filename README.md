@@ -1,4 +1,4 @@
-# 🌐 OIBSIP – Oasis Infobyte Web Development & Designing Internship
+# OIBSIP – Oasis Infobyte Web Development & Designing Internship
 
 Welcome to my **Oasis Infobyte Internship** repository.
 
@@ -6,7 +6,7 @@ This repository contains all the projects completed during my **Web Development 
 
 ---
 
-## 👩‍💻 Intern Information
+## Intern Information
 
 **Name:** Mahnoor Yasir
 
@@ -20,7 +20,7 @@ This repository contains all the projects completed during my **Web Development 
 
 ---
 
-# 📌 About This Repository
+# About This Repository
 
 The purpose of this repository is to showcase the projects completed throughout the internship while improving practical knowledge of frontend web development.
 
@@ -35,7 +35,7 @@ The projects are built using industry-standard technologies and demonstrate:
 
 ---
 
-# 🛠 Technologies Used
+# Technologies Used
 
 - HTML5
 - CSS3
@@ -46,7 +46,7 @@ The projects are built using industry-standard technologies and demonstrate:
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 OIBSIP
@@ -59,9 +59,9 @@ OIBSIP
 
 ---
 
-# 🚀 Internship Projects
+# Internship Projects
 
-## ✅ Task 1 – Calculator
+## Task 1 – Calculator
 
 A responsive web calculator capable of performing basic arithmetic operations with a clean and interactive interface.
 
@@ -78,7 +78,7 @@ A responsive web calculator capable of performing basic arithmetic operations wi
 
 ---
 
-## ✅ Task 2 – Tribute Page
+## Task 2 – Tribute Page
 
 A modern tribute webpage dedicated to an inspiring personality.
 
@@ -92,7 +92,7 @@ A modern tribute webpage dedicated to an inspiring personality.
 
 ---
 
-## ✅ Task 3 – To-Do Web Application
+## Task 3 – To-Do Web Application
 
 A task management application for organizing daily activities.
 
@@ -107,7 +107,7 @@ A task management application for organizing daily activities.
 
 ---
 
-## ✅ Task 4 – Login Authentication System
+## Task 4 – Login Authentication System
 
 A secure login and registration system built using modern web technologies.
 
@@ -122,7 +122,7 @@ A secure login and registration system built using modern web technologies.
 
 ---
 
-# 🎯 Learning Outcomes
+# Learning Outcomes
 
 Throughout this internship, I enhanced my knowledge of:
 
@@ -135,7 +135,7 @@ Throughout this internship, I enhanced my knowledge of:
 
 ---
 
-# 📬 Connect With Me
+# Connect With Me
 
 **GitHub:** https://github.com/mahnoor-yasir
 
@@ -143,12 +143,12 @@ Throughout this internship, I enhanced my knowledge of:
 
 ---
 
-# ⭐ Acknowledgement
+# Acknowledgement
 
 I sincerely thank **Oasis Infobyte** for providing this valuable opportunity to gain practical experience, improve my technical skills, and work on real-world web development projects.
 
 ---
 
-## 📄 License
+## License
 
 This repository is created for educational and internship purposes.
