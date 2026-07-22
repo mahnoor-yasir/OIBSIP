@@ -1,117 +1,368 @@
-# AstraCalc Pro
+<div align="center">
 
-AstraCalc Pro is a premium multi-mode calculator suite developed as part of the Oasis Infobyte Web Development & Designing Internship (Level 2 – Task 1). It combines a modern user interface with powerful calculation tools, delivering a professional and responsive experience.
+# 🚀 AstraCalc Pro
 
-## Features
+### Next-Generation Multi-Mode Calculator Suite
 
-### Standard Calculator
-- Basic arithmetic operations
-- Decimal support
-- Percentage calculations
-- Backspace and Clear functions
-- Operator chaining
-- Keyboard shortcuts
+*A premium desktop-inspired calculator application built with HTML5, CSS3 and Vanilla JavaScript.*
 
-### Scientific Calculator
-- Trigonometric functions
-- Logarithmic functions
-- Exponential calculations
-- Power and root operations
-- Factorial
-- Constants (π and e)
-- Memory functions
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![License](https://img.shields.io/badge/Project-Oasis%20Infobyte-blueviolet?style=for-the-badge)
 
-### Business Calculator
-- GST/VAT Calculator
-- Discount Calculator
-- Profit & Loss Calculator
-- ROI Calculator
-- Simple & Compound Interest
-- EMI Calculator
+---
 
-### Programmer Calculator
-- Binary, Decimal, Octal, and Hexadecimal conversions
-- Bitwise operations
-- Logical operations
-
-### Date Calculator
-- Difference between dates
-- Age calculator
-- Leap year detection
-
-### Unit Converter
-- Temperature
-- Currency
-- Length
-- Weight
-- Area
-- Volume
-- Time
-- Speed
-- Pressure
-- Energy
-- Power
-- Data Storage
-
-## Additional Features
-
-- Responsive Design
-- Dark & Light Themes
-- Premium UI/UX
-- Smooth Animations
-- Glassmorphism Design
-- Calculation History
-- Copy Results
-- Keyboard Support
-- Accessibility Optimized
-- Mobile Friendly
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- Vanilla JavaScript (ES6)
-
-## Folder Structure
-
-```text
-WebDev-L2-Task1-AstraCalcPro/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-│── assets/
-│── icons/
-│── fonts/
-```
-
-## How to Run
-
-1. Download or clone this repository.
-2. Open the project folder.
-3. Double-click `index.html`.
-4. The application will launch in your default browser.
-
-No installation or additional software is required.
-
-## Project Information
-
-**Internship:** Oasis Infobyte
+### 💼 Oasis Infobyte Internship
 
 **Track:** Web Development & Designing
 
 **Level:** 2
 
-**Task:** 1 – Calculator
+**Task:** Calculator
 
-## Future Improvements
+**Developed by:** **Mahnoor Yasir**
 
-- Cloud Synchronization
-- User Profiles
-- Calculation Export
-- Advanced Graphing Tools
-- Financial Planning Suite
+</div>
 
-## License
+---
 
-This project was developed for educational and internship purposes under the Oasis Infobyte Internship Program.
+# 📖 Overview
+
+AstraCalc Pro is a premium multi-mode calculator designed to provide much more than basic arithmetic.
+
+The application combines multiple calculation systems into one modern desktop-inspired interface. Instead of relying on JavaScript's `eval()` function, it uses a manually designed mathematical expression parser to securely evaluate expressions.
+
+The project focuses on clean architecture, modular development, responsive design, accessibility, and an intuitive user experience.
+
+---
+
+# ✨ Key Highlights
+
+- 🎨 Modern Desktop UI
+- 📱 Fully Responsive Design
+- 🌙 Multiple Themes
+- ⚡ Fast Performance
+- 🧠 Manual Expression Parsing
+- 🔒 No use of `eval()`
+- 📊 Business Calculators
+- 💻 Programmer Calculator
+- 🧮 Scientific Calculator
+- 🔢 Matrix Operations
+- 📝 History System
+- 💾 Memory Functions
+- ⚙️ Customizable Interface
+
+---
+
+# 🚀 Features
+
+## 🧮 Standard Calculator
+
+- Basic Arithmetic
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Decimal Support
+- Percentage
+- Continuous Calculations
+- Backspace
+- Clear Entry
+- Clear All
+
+---
+
+## 🔬 Scientific Calculator
+
+- Sine
+- Cosine
+- Tangent
+- Logarithm
+- Natural Log
+- Square Root
+- Square
+- Cube
+- Power
+- Factorial
+- Absolute Value
+- Pi Constant
+- Euler Constant
+- Positive/Negative Toggle
+
+---
+
+## 💻 Programmer Mode
+
+- Decimal
+- Binary
+- Octal
+- Hexadecimal
+
+Supports
+
+- AND
+- OR
+- XOR
+- NOT
+- Left Shift
+- Right Shift
+
+---
+
+## 📊 Matrix Engine
+
+Supports
+
+- Matrix Addition
+- Matrix Subtraction
+- Matrix Transpose
+- Determinant
+- Dynamic Matrix Rendering
+
+---
+
+## 💼 Business & Finance
+
+### EMI Calculator
+
+- Loan Amount
+- Interest Rate
+- Tenure
+- Monthly Installment
+
+### Tax Calculator
+
+- Add Tax
+- Remove Tax
+- GST/VAT Calculations
+
+---
+
+## 💾 Memory Operations
+
+- MC
+- MR
+- MS
+- M+
+- M-
+
+---
+
+## 📝 History
+
+- Stores Calculations
+- Reuse Previous Expressions
+- Clear History
+
+---
+
+## 🎨 Theme Customization
+
+Multiple Themes
+
+- Midnight
+- Jet Black
+- Charcoal
+- Graphite
+- Glassmorphism
+
+Accent Colors
+
+- Blue
+- Emerald
+- Crimson
+- Purple
+- Gold
+
+Additional Customization
+
+- Font Style
+- Animation Speed
+- Border Radius
+
+---
+
+# 🏗️ Project Structure
+
+```
+WebDev-L2-Calculator
+│
+├── index.html
+├── styles.css
+├── app.js
+└── README.md
+```
+
+---
+
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| Vanilla JavaScript | Application Logic |
+| CSS Variables | Theme System |
+| CSS Grid | Calculator Layout |
+| Flexbox | Responsive Layout |
+
+---
+
+# 🔐 Engineering Highlights
+
+- Manual Mathematical Parser
+- Secure Evaluation Logic
+- Modular JavaScript Architecture
+- Event Driven Programming
+- DOM Manipulation
+- Responsive Components
+- Dynamic Theme Engine
+- Accessible Navigation
+- Clean UI Architecture
+
+---
+
+# 📱 Responsive Design
+
+The application works smoothly across
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+# 🎯 Internship Requirements Covered
+
+✅ Display Screen
+
+✅ Numeric Buttons
+
+✅ Decimal Support
+
+✅ Arithmetic Operators
+
+✅ Equals Operation
+
+✅ Clear Button
+
+✅ Backspace
+
+✅ Division by Zero Handling
+
+✅ Sequential Operations
+
+✅ CSS Grid Layout
+
+✅ Event Listeners
+
+✅ Responsive Design
+
+---
+
+# 🌟 Additional Features Beyond Requirements
+
+- Scientific Mode
+- Programmer Mode
+- Matrix Calculator
+- EMI Calculator
+- Tax Calculator
+- Memory Register
+- History Panel
+- Theme Engine
+- Accent Colors
+- Keyboard Shortcuts
+- Toast Notifications
+- Settings Panel
+- Glassmorphism Theme
+- Dynamic UI Customization
+
+---
+
+# 📸 Screenshots
+
+> Add screenshots here after uploading images.
+
+Example
+
+```
+screenshots/
+│
+├── home.png
+├── scientific.png
+├── programmer.png
+├── matrix.png
+└── business.png
+```
+
+---
+
+# ▶️ How to Run
+
+1. Download or Clone the repository.
+
+```
+git clone https://github.com/yourusername/OIBSIP.git
+```
+
+2. Open
+
+```
+WebDev-L2-Calculator
+```
+
+3. Double-click
+
+```
+index.html
+```
+
+or
+
+Open with **Live Server** in Visual Studio Code.
+
+---
+
+# 🎓 Internship Information
+
+**Organization**
+
+Oasis Infobyte
+
+**Track**
+
+Web Development & Designing
+
+**Level**
+
+2
+
+**Task**
+
+Calculator
+
+---
+
+# 👩‍💻 Developer
+
+**Mahnoor Yasir**
+
+BS Computer Science
+
+Web Development & Designing
+
+GitHub:
+https://github.com/mahnoor-yasir
+
+---
+
+<div align="center">
+
+## ⭐ If you like this project, don't forget to star the repository.
+
+Made with ❤️ using HTML, CSS & JavaScript.
+
+</div>
