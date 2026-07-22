@@ -284,19 +284,45 @@ The application works smoothly across
 
 # 📸 Screenshots
 
-> Add screenshots here after uploading images.
+### 🧮 Standard Mode
+The clean and intuitive interface for performing everyday arithmetic calculations.
 
-Example
+![Standard Mode](assets/images/01-Standard-Mode.png)
 
-```
-screenshots/
-│
-├── home.png
-├── scientific.png
-├── programmer.png
-├── matrix.png
-└── business.png
-```
+---
+
+### 🔬 Scientific Lab
+Advanced mathematical functions including trigonometry, logarithms, exponents, and memory operations.
+
+![Scientific Lab](assets/images/02-Scientific-Lab.png)
+
+---
+
+### 💻 Programmer Bitwise
+Supports binary, octal, decimal, hexadecimal conversions and bitwise operations for developers.
+
+![Programmer Bitwise](assets/images/03-Programmer-Bitwise.png)
+
+---
+
+### 🧩 Matrix Engine
+Perform matrix addition, subtraction, transpose, determinant calculations, and other matrix operations.
+
+![Matrix Engine](assets/images/04-Matrix-Engine.png)
+
+---
+
+### 💼 Business & Finance
+Calculate Loan EMI, GST/Tax, and perform common financial calculations with ease.
+
+![Business & Finance](assets/images/05-Business-and-Finance.png)
+
+---
+
+### 🎨 Theme Design Customizer
+Personalize the application with multiple themes, accent colors, fonts, animations, and layout settings.
+
+![Theme Design Customizer](assets/images/06-Theme-Design-Customizer.png)
 
 ---
 
