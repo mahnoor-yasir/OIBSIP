@@ -1,154 +1,246 @@
-# OIBSIP – Oasis Infobyte Web Development & Designing Internship
+<div align="center">
 
-Welcome to my **Oasis Infobyte Internship** repository.
+# 🚀 OIBSIP
+## Oasis Infobyte Web Development & Designing Internship
 
-This repository contains all the projects completed during my **Web Development & Designing Internship** at **Oasis Infobyte**. Each project is developed by following modern web development practices, focusing on clean code, responsive design, user experience, and practical implementation.
+<p>
+A curated collection of responsive, modern, and feature-rich web development projects completed during my Oasis Infobyte Internship.
+</p>
 
----
+<p>
 
-## Intern Information
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 
-**Name:** Mahnoor Yasir
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 
-**Track:** Web Development & Designing
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
-**Organization:** Oasis Infobyte
+<img src="https://img.shields.io/badge/Responsive-100%25-success?style=for-the-badge"/>
 
-**Duration:** 1 Month
+<img src="https://img.shields.io/badge/Oasis%20Infobyte-Web%20Development-blueviolet?style=for-the-badge"/>
 
-**Repository:** OIBSIP
+</p>
 
----
-
-# About This Repository
-
-The purpose of this repository is to showcase the projects completed throughout the internship while improving practical knowledge of frontend web development.
-
-The projects are built using industry-standard technologies and demonstrate:
-
-- Responsive Web Design
-- Modern UI/UX Principles
-- Clean & Maintainable Code
-- JavaScript Functionality
-- Problem Solving Skills
-- Git & GitHub Workflow
+</div>
 
 ---
 
-# Technologies Used
+# 👩‍💻 Intern Information
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Git
-- GitHub
-- Visual Studio Code
+| Information | Details |
+|-------------|---------|
+| 👤 Name | Mahnoor Yasir |
+| 🏢 Organization | Oasis Infobyte |
+| 💻 Track | Web Development & Designing |
+| 📚 Level | Level 2 |
+| 📅 Duration | 1 Month |
+| 📂 Repository | OIBSIP |
 
 ---
 
-# Project Structure
+# 🌟 About This Repository
 
-```
+This repository contains all projects completed during my **Oasis Infobyte Web Development & Designing Internship**.
+
+Each project emphasizes:
+
+- ✨ Modern UI/UX
+- 📱 Responsive Design
+- ⚡ High Performance
+- 🧩 Clean Architecture
+- 🧠 JavaScript Functionality
+- 🎯 Problem Solving
+- 🔥 Professional GitHub Documentation
+- 💻 Industry Best Practices
+
+---
+
+# 🛠️ Tech Stack
+
+| Frontend | Development | Version Control |
+|-----------|-------------|-----------------|
+| HTML5 | JavaScript (ES6) | Git |
+| CSS3 | DOM Manipulation | GitHub |
+| Responsive Design | Local Storage | VS Code |
+
+---
+
+# 📂 Repository Structure
+
+```text
 OIBSIP
 │
 ├── WebDev-L2-Calculator
 ├── WebDev-L2-TributePage
-├── WebDev-L2-ToDoApp
-└── WebDev-L2-LoginAuthentication
+├── WebDev-L2-ToDoWebApp
+└── WebDev-L2-LoginAuthenticationSystem
 ```
 
 ---
 
-# Internship Projects
+# 📋 Internship Projects
 
-## Task 1 – Calculator
+## 🧮 Task 1 — Calculator
 
-A responsive web calculator capable of performing basic arithmetic operations with a clean and interactive interface.
+> Premium multi-mode calculator with advanced mathematical and financial utilities.
 
-**Features**
+### Highlights
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Decimal Support
-- Delete Button
-- Clear Screen
-- Responsive Design
+- Standard Calculator
+- Scientific Calculator
+- Programmer Mode
+- Matrix Engine
+- Business & Finance Tools
+- Theme Customizer
+- Session History
+- Responsive Interface
+
+📂 Folder
+
+```
+WebDev-L2-Calculator
+```
 
 ---
 
-## Task 2 – Tribute Page
+## 🌟 Task 2 — Tribute Page
 
-A modern tribute webpage dedicated to an inspiring personality.
+> A premium tribute website dedicated to an inspiring personality using modern UI design.
 
-**Features**
+### Highlights
 
+- Hero Section
 - Biography
 - Timeline
+- Achievements
 - Quote Section
 - Responsive Layout
-- Attractive Design
+- Smooth Animations
+- Premium Design
+
+📂 Folder
+
+```
+WebDev-L2-TributePage
+```
 
 ---
 
-## Task 3 – To-Do Web Application
+## ✅ Task 3 — To-Do Web App
 
-A task management application for organizing daily activities.
+> A productivity-focused task management application.
 
-**Features**
+### Highlights
 
 - Add Tasks
 - Edit Tasks
 - Delete Tasks
 - Complete Tasks
-- Task Counter
-- Local Storage Support
+- Local Storage
+- Task Counters
+- Responsive Design
+- Clean UI
+
+📂 Folder
+
+```
+WebDev-L2-ToDoWebApp
+```
 
 ---
 
-## Task 4 – Login Authentication System
+## 🔐 Task 4 — Login Authentication System
 
-A secure login and registration system built using modern web technologies.
+> A secure authentication application with modern validation techniques.
 
-**Features**
+### Highlights
 
 - User Registration
-- Login Authentication
-- Form Validation
+- Secure Login
 - Password Validation
+- SHA-256 Password Hashing
 - Dashboard
-- Logout Functionality
+- Logout
+- Protected Routes
+- Responsive UI
+
+📂 Folder
+
+```
+WebDev-L2-LoginAuthenticationSystem
+```
 
 ---
 
-# Learning Outcomes
+# 🎯 Skills Demonstrated
 
-Throughout this internship, I enhanced my knowledge of:
+✔ Responsive Web Development
 
-- Responsive Web Development
-- Frontend Design Principles
-- JavaScript DOM Manipulation
-- Form Validation
+✔ HTML5 & Semantic Markup
+
+✔ CSS3 Layouts
+
+✔ JavaScript ES6
+
+✔ DOM Manipulation
+
+✔ Form Validation
+
+✔ Local Storage
+
+✔ Responsive UI Design
+
+✔ Problem Solving
+
+✔ Git & GitHub Workflow
+
+✔ UI/UX Design Principles
+
+---
+
+# 📈 Learning Outcomes
+
+During this internship I strengthened my understanding of:
+
+- Modern Frontend Development
+- Responsive Design Principles
+- JavaScript Programming
+- Interactive User Interfaces
+- Git Version Control
 - Project Organization
-- Version Control using Git & GitHub
+- Professional Documentation
+- Clean Code Practices
 
 ---
 
-# Connect With Me
+# 🌐 Connect With Me
 
-**GitHub:** https://github.com/mahnoor-yasir
+<div align="center">
 
-**LinkedIn:** https://www.linkedin.com/in/mahnoor-yasir/
+### 👩‍💻 Mahnoor Yasir
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/mahnoor-yasir
+
+💻 GitHub
+
+https://github.com/mahnoor-yasir
+
+</div>
 
 ---
 
-# Acknowledgement
+# 🙏 Acknowledgement
 
-I sincerely thank **Oasis Infobyte** for providing this valuable opportunity to gain practical experience, improve my technical skills, and work on real-world web development projects.
+I sincerely thank **Oasis Infobyte** for providing this valuable internship opportunity. It allowed me to strengthen my frontend development skills, apply modern web technologies, and build practical projects following professional development standards.
 
 ---
 
-## License
+<div align="center">
 
-This repository is created for educational and internship purposes.
+## ⭐ If you found this repository helpful, consider giving it a Star!
+
+Made with ❤️ by **Mahnoor Yasir**
+
+</div>
