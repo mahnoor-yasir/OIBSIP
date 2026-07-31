@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="A premium tribute website honoring Dr. Abdul Qadeer Khan — the father of Pakistan's nuclear program. His life, legacy, achievements and enduring inspiration." />
+<meta name="author" content="Tribute Project" />
+<meta name="theme-color" content="#f7e6ee" />
+<meta property="og:title" content="Dr. Abdul Qadeer Khan — A Tribute" />
+<meta property="og:description" content="An elegant tribute celebrating the life, work and legacy of Dr. Abdul Qadeer Khan." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<title>Dr. Abdul Qadeer Khan — A Tribute to a Visionary Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+</head>
+<body data-theme="rose">
+
+<!-- Loading screen -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-ring"></div>
+  <p class="loader-text">Preparing a tribute…</p>
+</div>
+
+<!-- Reading progress bar -->
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<!-- Floating particles -->
+<div class="particles" id="particles" aria-hidden="true"></div>
+
+<!-- Navigation -->
+<header class="nav-wrap">
+  <nav class="nav glass" aria-label="Primary navigation">
+    <a href="#home" class="brand">
+      <span class="brand-mark">AQ</span>
+      <span class="brand-text">Dr. A. Q. Khan</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#biography">Biography</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#quotes">Quotes</a></li>
+      <li><a href="#legacy">Legacy</a></li>
+      <li><a href="#pakistan">Pakistan</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#facts">Facts</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#references">References</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-tools">
+      <div class="theme-switch" role="group" aria-label="Theme switcher">
+        <button data-theme-btn="rose" class="theme-dot rose" aria-label="Rose theme"></button>
+        <button data-theme-btn="sky" class="theme-dot sky" aria-label="Sky theme"></button>
+        <button data-theme-btn="lavender" class="theme-dot lavender" aria-label="Lavender theme"></button>
+        <button data-theme-btn="light" class="theme-dot light" aria-label="Pearl theme"></button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="blob blob-1" aria-hidden="true"></div>
+  <div class="blob blob-2" aria-hidden="true"></div>
+  <div class="blob blob-3" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow reveal">1936 — 2021 · A Life Devoted to Science &amp; Nation</p>
+      <h1 class="hero-title">
+        <span class="line"><span>Dr. Abdul</span></span>
+        <span class="line"><span><em>Qadeer</em> Khan</span></span>
+      </h1>
+      <p class="hero-sub reveal" data-delay="200">
+        <span id="typed"></span><span class="caret">|</span>
+      </p>
+      <p class="hero-lede reveal" data-delay="400">
+        A metallurgist, a teacher, a patriot — the architect of Pakistan's
+        uranium-enrichment program and one of the most influential scientific
+        figures of the twentieth century.
+      </p>
+      <div class="hero-cta reveal" data-delay="600">
+        <a href="#biography" class="btn btn-primary ripple">
+          <span>Explore His Story</span>
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M13 5l7 7-7 7-1.4-1.4L16.2 13H4v-2h12.2l-4.6-4.6z"/></svg>
+        </a>
+        <a href="#quotes" class="btn btn-ghost">Read His Words</a>
+      </div>
+    </div>
+
+   <div class="hero-portrait reveal" data-delay="300">
+  <div class="portrait-frame">
+    <img src="assets/4.jpg" alt="Portrait of Dr. Abdul Qadeer Khan" width="1024" height="1280" />
+    <div class="portrait-halo" aria-hidden="true"></div>
+  </div>
+  <div class="floating-card card-1 glass">
+    <span class="fc-num">30+</span>
+    <span class="fc-lbl">International Awards</span>
+  </div>
+  <div class="floating-card card-2 glass">
+    <span class="fc-num">150+</span>
+    <span class="fc-lbl">Scientific Papers</span>
+  </div>
+</div>
+
+  </div>
+
+  <a href="#biography" class="scroll-indicator" aria-label="Scroll to next section">
+    <span></span>
+    <p>Scroll</p>
+  </a>
+</section>
+
+<!-- Biography -->
+<section id="biography" class="section">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">01 — Biography</p>
+      <h2 class="section-title">A Life <em>Written in Science</em></h2>
+      <p class="section-sub">Five chapters from a remarkable journey.</p>
+    </header>
+
+    <div class="bio-grid">
+      <article class="bio-card glass reveal">
+        <h3>Origins in Bhopal</h3>
+        <p>
+          Born on 1 April 1936 in Bhopal, India, Abdul Qadeer Khan grew up in a
+          household that treasured discipline, faith and the quiet dignity of
+          learning. His father, a retired schoolteacher, planted in him the
+          belief that knowledge is the surest inheritance a family can leave.
+          Those early years — marked by the tremors of partition — shaped a boy
+          who would spend the rest of his life translating personal conviction
+          into public service.
+        </p>
+      </article>
+      <article class="bio-card glass reveal" data-delay="100">
+        <h3>The Migrant Scholar</h3>
+        <p>
+          After migrating to Karachi with his family in 1952, Khan pursued
+          metallurgical engineering at D. J. Science College and later the
+          University of Karachi. Restless for deeper knowledge, he sailed for
+          Europe, studying in West Berlin, earning a master's degree at Delft
+          University of Technology in the Netherlands, and completing a
+          doctorate in metallurgy at the Catholic University of Leuven in
+          Belgium in 1972. In every classroom he arrived with a notebook and
+          left with a plan.
+        </p>
+      </article>
+      <article class="bio-card glass reveal" data-delay="200">
+        <h3>The European Years</h3>
+        <p>
+          Working at the Physics Dynamics Research Laboratory in Amsterdam, Khan
+          became deeply immersed in the science of ultra-centrifuge uranium
+          enrichment — a field then defining the strategic contours of the
+          nuclear age. It was patient, meticulous work: the geometry of rotors,
+          the physics of gaseous diffusion, the mathematics of separative work
+          units. This crucible of European laboratories forged both his
+          expertise and his sense of purpose.
+        </p>
+      </article>
+      <article class="bio-card glass reveal" data-delay="300">
+        <h3>Return to Pakistan</h3>
+        <p>
+          In the aftermath of the 1974 nuclear tests in Pakistan's neighbourhood,
+          Khan wrote to Prime Minister Zulfikar Ali Bhutto offering his services.
+          By 1976 he had returned home to lead what would become the Engineering
+          Research Laboratories in Kahuta — later renamed in his honour. Working
+          under austere conditions and international scrutiny, he assembled a
+          generation of Pakistani engineers and turned an ambition into an
+          industrial reality.
+        </p>
+      </article>
+      <article class="bio-card glass reveal" data-delay="400">
+        <h3>Statesman of Science</h3>
+        <p>
+          For nearly three decades Khan served as the intellectual centre of
+          Pakistan's strategic programs, mentoring thousands of scientists,
+          founding academic institutions and publishing extensively on
+          metallurgy, materials science and vibrations. Beyond laboratories, he
+          became a public figure whose lectures filled auditoriums and whose
+          essays shaped national conversation. He passed away on 10 October
+          2021 in Islamabad, mourned as a symbol of scientific self-reliance.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline -->
+<section id="timeline" class="section soft">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">02 — Timeline</p>
+      <h2 class="section-title">Moments That <em>Shaped a Nation</em></h2>
+      <div class="timeline-search">
+        <input type="search" id="timelineSearch" placeholder="Search milestones (e.g. Kahuta, PhD, Nishan)…" aria-label="Search the timeline" />
+      </div>
+    </header>
+
+    <ol class="timeline" id="timeline">
+      <li class="tl-item reveal" data-tags="childhood bhopal">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1936</div>
+        <div class="tl-card glass">
+          <h4>Born in Bhopal</h4>
+          <p>Abdul Qadeer Khan is born on 1 April into a family of educators, in a household where books are treated as heirlooms.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="education karachi">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1960</div>
+        <div class="tl-card glass">
+          <h4>Metallurgical Engineering</h4>
+          <p>Graduates from the University of Karachi with a degree in metallurgical engineering, then joins Karachi Metropolitan Corporation as an inspector of weights and measures.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="europe berlin delft">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1961–67</div>
+        <div class="tl-card glass">
+          <h4>Studies Across Europe</h4>
+          <p>Pursues advanced studies in West Berlin and completes an M.Sc. in metallurgy at Delft University of Technology.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="phd leuven">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1972</div>
+        <div class="tl-card glass">
+          <h4>Doctorate at Leuven</h4>
+          <p>Earns a Doctor of Engineering from the Catholic University of Leuven, Belgium, on the metallurgy of martensitic transformations.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="career amsterdam urenco">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1972–75</div>
+        <div class="tl-card glass">
+          <h4>Amsterdam Laboratories</h4>
+          <p>Works at the Physics Dynamics Research Laboratory in Amsterdam, deepening his expertise in ultra-centrifuge technology.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="return pakistan bhutto">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1976</div>
+        <div class="tl-card glass">
+          <h4>Return to Pakistan</h4>
+          <p>Returns home at the invitation of Prime Minister Bhutto and is entrusted with leading the country's uranium-enrichment program.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="kahuta laboratories khan nuclear">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1981</div>
+        <div class="tl-card glass">
+          <h4>Kahuta Renamed</h4>
+          <p>The Engineering Research Laboratories at Kahuta are renamed Dr. A. Q. Khan Research Laboratories in recognition of his leadership.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="ghauri missile">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1998</div>
+        <div class="tl-card glass">
+          <h4>Chagai &amp; The Ghauri</h4>
+          <p>Pakistan conducts nuclear tests at Chagai; Khan's team also develops the Ghauri series of medium-range missiles.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="awards nishan">
+        <div class="tl-dot"></div>
+        <div class="tl-year">1996 · 1989</div>
+        <div class="tl-card glass">
+          <h4>Nishan-e-Imtiaz &amp; Hilal-e-Imtiaz</h4>
+          <p>Twice awarded the Nishan-e-Imtiaz — Pakistan's highest civilian honour — alongside the Hilal-e-Imtiaz.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="later life teaching">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2000s</div>
+        <div class="tl-card glass">
+          <h4>Educator &amp; Author</h4>
+          <p>Devotes his later years to teaching, philanthropy and prolific writing, publishing on materials science, education policy and national affairs.</p>
+        </div>
+      </li>
+      <li class="tl-item reveal" data-tags="legacy 2021">
+        <div class="tl-dot"></div>
+        <div class="tl-year">2021</div>
+        <div class="tl-card glass">
+          <h4>A Nation Mourns</h4>
+          <p>Passes away on 10 October in Islamabad. He is honoured with a state funeral and remembered as a symbol of scientific self-reliance.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements" class="section">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">03 — Achievements</p>
+      <h2 class="section-title">A <em>Legacy</em> of Firsts</h2>
+    </header>
+
+    <div class="ach-grid">
+      <div class="ach-card glass reveal">
+        <div class="ach-icon">⚛</div>
+        <h3>Uranium Enrichment</h3>
+        <p>Led the design and industrialisation of Pakistan's centrifuge-based uranium enrichment program.</p>
+      </div>
+      <div class="ach-card glass reveal" data-delay="100">
+        <div class="ach-icon">🎓</div>
+        <h3>Scientific Education</h3>
+        <p>Founded and endowed multiple institutions dedicated to engineering, science and technical training.</p>
+      </div>
+      <div class="ach-card glass reveal" data-delay="200">
+        <div class="ach-icon">📚</div>
+        <h3>Prolific Author</h3>
+        <p>Published more than 150 peer-reviewed papers across metallurgy, vibrations and materials science.</p>
+      </div>
+      <div class="ach-card glass reveal" data-delay="300">
+        <div class="ach-icon">🚀</div>
+        <h3>Ghauri Missile Series</h3>
+        <p>Oversaw the development of medium-range ballistic missiles that expanded Pakistan's deterrent capability.</p>
+      </div>
+      <div class="ach-card glass reveal" data-delay="400">
+        <div class="ach-icon">🏛</div>
+        <h3>Institution Builder</h3>
+        <p>Established the Dr. A. Q. Khan Research Laboratories as a benchmark of indigenous engineering excellence.</p>
+      </div>
+      <div class="ach-card glass reveal" data-delay="500">
+        <div class="ach-icon">🌍</div>
+        <h3>Global Recognition</h3>
+        <p>Received honorary doctorates and lifetime achievement awards from universities and academies around the world.</p>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats reveal">
+      <div class="stat">
+        <span class="stat-num" data-count="45">0</span><span class="stat-plus">+</span>
+        <p>Years of Service</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="30">0</span><span class="stat-plus">+</span>
+        <p>Honours &amp; Medals</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="150">0</span><span class="stat-plus">+</span>
+        <p>Scientific Papers</p>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="2">0</span><span class="stat-plus">×</span>
+        <p>Nishan-e-Imtiaz</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="section soft">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">04 — Gallery</p>
+      <h2 class="section-title">Chapters in <em>Pictures</em></h2>
+    </header>
+
+    <div class="gallery">
+      <figure class="g-item reveal" data-src="assets/1.jpg" data-caption="Dr. A. Q. Khan waving to the nation.">
+        <img src="assets/1.webp" alt="Dr. A. Q. Khan waving" loading="lazy" />
+        <figcaption>Waving to the Nation</figcaption>
+      </figure>
+
+      <figure class="g-item reveal" data-src="assets/2.jpg" data-caption="Dr. A. Q. Khan in formal state attire with honors." data-delay="100">
+        <img src="assets/16.avif" alt="Dr. A. Q. Khan formal state attire" loading="lazy" />
+        <figcaption>Dua & Supplication</figcaption>
+      </figure>
+
+      <figure class="g-item reveal" data-src="assets/3.jpg" data-caption="In remembrance of Dr. Abdul Qadeer Khan (1936–2021)." data-delay="200">
+        <img src="assets/3.jpg" alt="Remembrance of Dr. A. Q. Khan" loading="lazy" />
+        <figcaption>A Nation's Homage</figcaption>
+      </figure>
+
+      <figure class="g-item reveal" data-src="assets/4.jpg" data-caption="Dr. A. Q. Khan in contemplative thought." data-delay="300">
+        <img src="assets/4.jpg" alt="Dr. A. Q. Khan portrait" loading="lazy" />
+        <figcaption>Scientific Vision</figcaption>
+      </figure>
+
+      <figure class="g-item reveal" data-src="assets/5.jpg" data-caption="Dr. A. Q. Khan during a public address." data-delay="400">
+        <img src="assets/5.jpg" alt="Dr. A. Q. Khan addressing audience" loading="lazy" />
+        <figcaption>Public Address</figcaption>
+      </figure>
+
+      <figure class="g-item reveal" data-src="assets/6.jpg" data-caption="Dr. A. Q. Khan presenting awards at an event." data-delay="500">
+        <img src="assets/6.jpg" alt="Dr. A. Q. Khan presenting awards" loading="lazy" />
+        <figcaption>Award Ceremony</figcaption>
+      </figure>
+
+      <figure class="g-item reveal" data-src="assets/8.jpg" data-caption="Official executive portrait." data-delay="600">
+        <img src="assets/17.jpg" alt="Official portrait of Dr. A. Q. Khan" loading="lazy" />
+        <figcaption>Press Conference</figcaption>
+      </figure>
+
+      <figure class="g-item reveal" data-src="assets/9.jpg" data-caption="Dr. A. Q. Khan with colleagues and family." data-delay="700">
+        <img src="assets/9.jpg" alt="Dr. A. Q. Khan historic group photo" loading="lazy" />
+        <figcaption>Historic Gathering</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- Quotes -->
+<section id="quotes" class="section">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <p class="kicker">05 — Words</p>
+      <h2 class="section-title">In <em>His Own</em> Voice</h2>
+    </header>
+
+    <div class="quote-carousel glass reveal">
+      <div class="q-mark">&ldquo;</div>
+      <div class="quotes-track" id="quotesTrack">
+        <blockquote class="quote active">
+          <p>Do not be led astray by those who believe that only foreign knowledge is worthy. Trust your own hands, your own minds, and your own soil.</p>
+          <cite>— Dr. A. Q. Khan</cite>
+        </blockquote>
+        <blockquote class="quote">
+          <p>A nation that cannot educate its youth in science will always be a guest at another nation's table.</p>
+          <cite>— Dr. A. Q. Khan</cite>
+        </blockquote>
+        <blockquote class="quote">
+          <p>The measure of a scientist is not the applause he receives, but the students he leaves behind.</p>
+          <cite>— Dr. A. Q. Khan</cite>
+        </blockquote>
+        <blockquote class="quote">
+          <p>Independence is not merely a flag or an anthem. It is the ability to solve your own problems with your own tools.</p>
+          <cite>— Dr. A. Q. Khan</cite>
+        </blockquote>
+        <blockquote class="quote">
+          <p>Every laboratory I have built began not with equipment, but with belief.</p>
+          <cite>— Dr. A. Q. Khan</cite>
+        </blockquote>
+      </div>
+      <div class="q-controls">
+        <button id="qPrev" aria-label="Previous quote">‹</button>
+        <div class="q-dots" id="qDots"></div>
+        <button id="qNext" aria-label="Next quote">›</button>
+      </div>
+      <button class="q-fav" id="qFav" aria-label="Save as favorite quote">♡ Save as favorite</button>
+      <p class="q-fav-msg" id="qFavMsg" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<!-- Pakistan -->
+<section id="pakistan" class="section soft">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">06 — Pakistan</p>
+      <h2 class="section-title">The Nation's <em>Nuclear Journey</em></h2>
+      <p class="section-sub">How one scientist's determination reshaped a country's strategic destiny.</p>
+    </header>
+
+    <div class="pak-grid">
+      <article class="pak-card glass reveal">
+        <span class="pak-year">1974</span>
+        <h3>An Age of Necessity</h3>
+        <p>Regional developments prompted Pakistan to accelerate its search for a credible strategic deterrent — a quest defined by resource limits and international scrutiny.</p>
+      </article>
+      <article class="pak-card glass reveal" data-delay="100">
+        <span class="pak-year">1976</span>
+        <h3>Kahuta Rises</h3>
+        <p>Under Khan's leadership, the Engineering Research Laboratories at Kahuta began the painstaking work of centrifuge design and uranium enrichment.</p>
+      </article>
+      <article class="pak-card glass reveal" data-delay="200">
+        <span class="pak-year">1980s</span>
+        <h3>Silent Progress</h3>
+        <p>Through embargoes and pressure, the program advanced quietly — a story of patient engineering, indigenous manufacturing and unshakable resolve.</p>
+      </article>
+      <article class="pak-card glass reveal" data-delay="300">
+        <span class="pak-year">1998</span>
+        <h3>Chagai</h3>
+        <p>Pakistan tested its nuclear devices at Chagai in May 1998, becoming the seventh country in the world to demonstrate the capability.</p>
+      </article>
+      <article class="pak-card glass reveal" data-delay="400">
+        <span class="pak-year">Legacy</span>
+        <h3>Beyond the Bomb</h3>
+        <p>Khan's most enduring gift was human — an ecosystem of engineers, teachers and institutions that continues to drive Pakistan's technical capability.</p>
+      </article>
+      <article class="pak-card glass reveal" data-delay="500">
+        <span class="pak-year">Today</span>
+        <h3>An Ongoing Story</h3>
+        <p>His example endures in classrooms, workshops and research parks — a reminder that strategic autonomy begins with education.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Legacy -->
+<section id="legacy" class="section legacy">
+  <div class="container narrow">
+    <p class="kicker reveal">07 — Legacy</p>
+    <h2 class="legacy-head reveal">
+      <em>“He gave</em> a nation<br />
+      the confidence to <em>trust</em><br />
+      its own hands.”
+    </h2>
+    <p class="legacy-body reveal">
+      Dr. Abdul Qadeer Khan's legacy is measured less in kilograms of enriched
+      uranium and more in the generations of scientists who now stand where he
+      once stood alone. He built institutions, mentored engineers, wrote
+      textbooks, and — above all — insisted that a poor country could nonetheless
+      afford excellence. Whatever the world's verdict on the strategic decisions
+      of his era, his devotion to Pakistan and to the craft of engineering
+      remains a defining chapter in the modern history of science.
+    </p>
+    <p class="legacy-body reveal" data-delay="150">
+      To visit any Pakistani engineering campus today is to encounter his
+      students, and their students in turn. That quiet lineage — a chain of
+      teachers, notebooks, laboratories, and belief — is his most permanent
+      monument.
+    </p>
+  </div>
+</section>
+
+<!-- Awards -->
+<section id="awards" class="section soft">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">08 — Awards</p>
+      <h2 class="section-title">Honours &amp; <em>Recognition</em></h2>
+    </header>
+    <ul class="awards-list">
+      <li class="reveal"><strong>Nishan-e-Imtiaz</strong><span>1996 &amp; 1999 — Pakistan's highest civil honour, awarded twice.</span></li>
+      <li class="reveal" data-delay="100"><strong>Hilal-e-Imtiaz</strong><span>1989 — awarded for outstanding contributions to the state.</span></li>
+      <li class="reveal" data-delay="200"><strong>Gold Medal, Pakistan Academy of Sciences</strong><span>Recognition for distinguished scientific achievement.</span></li>
+      <li class="reveal" data-delay="300"><strong>Honorary Doctorates</strong><span>Awarded by numerous universities in Pakistan and abroad.</span></li>
+      <li class="reveal" data-delay="400"><strong>Lifetime Achievement Recognitions</strong><span>Presented by professional engineering societies for a career of service.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- Interesting Facts -->
+<section id="facts" class="section">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">09 — Facts</p>
+      <h2 class="section-title">Twelve <em>Little-Known</em> Facts</h2>
+    </header>
+
+    <div class="facts-grid">
+      <div class="fact-card glass reveal"><span>01</span><p>He was born the same year Pakistan's founder began organising the demand for a separate homeland — a coincidence he often reflected on.</p></div>
+      <div class="fact-card glass reveal" data-delay="60"><span>02</span><p>He spoke fluent Dutch, German and English in addition to Urdu.</p></div>
+      <div class="fact-card glass reveal" data-delay="120"><span>03</span><p>His doctoral research at Leuven focused on the metallurgy of martensitic transformations.</p></div>
+      <div class="fact-card glass reveal" data-delay="180"><span>04</span><p>He personally reviewed thousands of engineering drawings during Kahuta's early years.</p></div>
+      <div class="fact-card glass reveal" data-delay="240"><span>05</span><p>He founded and financially supported several schools and colleges across Pakistan.</p></div>
+      <div class="fact-card glass reveal" data-delay="300"><span>06</span><p>He wrote a regular newspaper column on science, education and public affairs.</p></div>
+      <div class="fact-card glass reveal" data-delay="360"><span>07</span><p>He was an avid reader of history and poetry, with a personal library of thousands of volumes.</p></div>
+      <div class="fact-card glass reveal" data-delay="420"><span>08</span><p>He kept a working notebook by his bedside throughout his career.</p></div>
+      <div class="fact-card glass reveal" data-delay="480"><span>09</span><p>His preferred title was “Professor” — not “Doctor”.</p></div>
+      <div class="fact-card glass reveal" data-delay="540"><span>10</span><p>He mentored generations of women engineers, championing their entry into technical fields.</p></div>
+      <div class="fact-card glass reveal" data-delay="600"><span>11</span><p>He co-authored more than a dozen books on metallurgy and vibrations.</p></div>
+      <div class="fact-card glass reveal" data-delay="660"><span>12</span><p>His state funeral in 2021 was attended by leaders, students and citizens alike.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Media -->
+<section id="media" class="section soft">
+  <div class="container">
+    <header class="section-head reveal">
+      <p class="kicker">10 — Media</p>
+      <h2 class="section-title">Documentaries &amp; <em>Interviews</em></h2>
+    </header>
+
+    <div class="media-grid">
+      <a class="media-card glass reveal" href="https://www.youtube.com/results?search_query=Abdul+Qadeer+Khan+documentary" target="_blank" rel="noopener noreferrer">
+        <div class="media-thumb thumb-1"></div>
+        <div class="media-meta">
+          <h4>Documentaries on Dr. A. Q. Khan</h4>
+          <p>Curated YouTube search: full-length documentaries on his life and work.</p>
+          <span class="media-link">Watch on YouTube →</span>
+        </div>
+      </a>
+      <a class="media-card glass reveal" href="https://www.youtube.com/results?search_query=Abdul+Qadeer+Khan+interview" target="_blank" rel="noopener noreferrer" data-delay="100">
+        <div class="media-thumb thumb-2"></div>
+        <div class="media-meta">
+          <h4>Interviews with Dr. A. Q. Khan</h4>
+          <p>Televised interviews on science, education and public service.</p>
+          <span class="media-link">Watch on YouTube →</span>
+        </div>
+      </a>
+      <a class="media-card glass reveal" href="https://en.wikipedia.org/wiki/Abdul_Qadeer_Khan" target="_blank" rel="noopener noreferrer" data-delay="200">
+        <div class="media-thumb thumb-3"></div>
+        <div class="media-meta">
+          <h4>Encyclopedic Overview</h4>
+          <p>Wikipedia biography with cited references, timelines and further reading.</p>
+          <span class="media-link">Read on Wikipedia →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- References -->
+<section id="references" class="section">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <p class="kicker">11 — References</p>
+      <h2 class="section-title">Sources &amp; <em>Further Reading</em></h2>
+      <p class="section-sub">This tribute is written in original prose. The following sources are acknowledged for factual attribution only; no text has been copied from them.</p>
+    </header>
+    <ul class="refs">
+      <li class="reveal"><a href="https://en.wikipedia.org/wiki/Abdul_Qadeer_Khan" target="_blank" rel="noopener noreferrer">Wikipedia — <em>Abdul Qadeer Khan</em></a>, encyclopedic overview of career and public record.</li>
+      <li class="reveal" data-delay="100"><a href="https://www.britannica.com/biography/Abdul-Qadeer-Khan" target="_blank" rel="noopener noreferrer">Encyclopædia Britannica</a> — biographical entry on Dr. A. Q. Khan.</li>
+      <li class="reveal" data-delay="200"><a href="https://www.iaea.org/" target="_blank" rel="noopener noreferrer">International Atomic Energy Agency (IAEA)</a> — public documents on regional nuclear affairs.</li>
+      <li class="reveal" data-delay="300"><a href="https://www.pid.gov.pk/" target="_blank" rel="noopener noreferrer">Government of Pakistan, Ministry of Information</a> — official press releases and biographies.</li>
+      <li class="reveal" data-delay="400"><a href="https://commons.wikimedia.org/wiki/Category:Abdul_Qadeer_Khan" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> — authentic photographs of Dr. A. Q. Khan used in the gallery.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section soft">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <p class="kicker">12 — Contact</p>
+      <h2 class="section-title">Get in <em>Touch</em></h2>
+      <p class="section-sub">For feedback on this tribute, corrections or collaboration.</p>
+    </header>
+
+    <form class="contact-form glass reveal" action="https://formspree.io/f/mlgqvebo" method="POST" onsubmit="return handleContact(event)">
+  <div class="row">
+    <label>
+      <span>Your name</span>
+      <input type="text" name="name" required placeholder="Your Name" />
+    </label>
+    <label>
+      <span>Email</span>
+      <input type="email" name="email" required placeholder="you@example.com" />
+    </label>
+  </div>
+  <label>
+    <span>Message</span>
+    <textarea name="message" rows="5" required placeholder="Share your thoughts..."></textarea>
+  </label>
+  <div class="form-actions">
+    <button type="submit" class="btn btn-primary ripple">Send message</button>
+    <button type="button" class="btn btn-ghost" onclick="window.print()">Print biography</button>
+    <button type="button" class="btn btn-ghost" onclick="downloadBio()">Download as PDF</button>
+  </div>
+  <p class="form-msg" id="formMsg" aria-live="polite"></p>
+</form>
+
+    <div class="share reveal">
+      <span>Share this tribute:</span>
+      <button onclick="shareLink('twitter')" aria-label="Share on Twitter">Twitter</button>
+      <button onclick="shareLink('facebook')" aria-label="Share on Facebook">Facebook</button>
+      <button onclick="shareLink('linkedin')" aria-label="Share on LinkedIn">LinkedIn</button>
+      <button onclick="shareLink('copy')" aria-label="Copy link">Copy link</button>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand">
+        <span class="brand-mark">AQ</span>
+        <span class="brand-text">Dr. A. Q. Khan · Tribute</span>
+      </div>
+      <p class="foot-copy">A design-forward tribute crafted with reverence.<br/>© <span id="year"></span> — All content original.</p>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <ul>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#quotes">Quotes</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Learn</h5>
+      <ul>
+        <li><a href="#pakistan">Pakistan's Journey</a></li>
+        <li><a href="#facts">Interesting Facts</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Elsewhere</h5>
+      <ul class="socials">
+        <li><a href="https://github.com/mahnoor-yasir" aria-label="GitHub">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/mahnoor-yasir" aria-label="LinkedIn">LinkedIn</a></li>
+        <li><a href="mailto:mahnooryasir04@gmail.com" aria-label="Email">Email</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-base">
+    <p>Handcrafted with HTML · CSS · Vanilla JavaScript. Optimised for the modern web.</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Close">×</button>
+  <button class="lb-prev" id="lbPrev" aria-label="Previous image">‹</button>
+  <img id="lbImg" alt="" />
+  <p class="lb-caption" id="lbCaption"></p>
+  <button class="lb-next" id="lbNext" aria-label="Next image">›</button>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
