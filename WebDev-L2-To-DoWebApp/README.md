@@ -224,3 +224,40 @@ WebDev-L2-To-DoWebApp/
 ├── script.js
 ├── style.css
 └── README.md
+```
+---
+# Author
+
+**Mahnoor Yasir**
+
+---
+
+# Acknowledgements
+
+This project was developed as part of the **Oasis Infobyte Web Development Internship Program**. It demonstrates practical implementation of modern front-end web development concepts, responsive user interface design, browser-based data persistence, and interactive task management using HTML5, CSS3, and Vanilla JavaScript.
+
+---
+
+# License
+
+This project is intended for educational and portfolio purposes.
+
+You are welcome to explore, learn from, and modify the source code for personal, academic, and non-commercial use.
+
+---
+
+# Support
+
+If you found this project useful, consider giving the repository a **Star** on GitHub.
+
+Feedback, suggestions, and contributions are always appreciated.
+
+---
+
+<p align="center">
+
+Developed with HTML5, CSS3, and JavaScript
+
+TaskFlow © 2026
+
+</p>
